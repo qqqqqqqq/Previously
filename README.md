@@ -22,7 +22,7 @@ Tests are in runtime and are console.logged, each test is announced, and a messa
 
 ### Test notes
 
-I constructed a small testing object with bespoke functions. The prog is function-based so functions are tested as units. The API calls have error/failure handling with moderate reporting to console. The tests are mainly on DOM generation and values read from DOM, properties or data read, and also test data structures' integrity after processing. Any DOM testing is class-based in principle rather than structure-analysis as structure could alter without error during development.
+I constructed a small testing object with bespoke functions. The prog is function-based so functions are tested as units. The API calls have error/failure handling with moderate reporting to console. The tests are mainly on DOM generation and values read from DOM, properties or data read, and also test data structures' integrity after processing. Any DOM testing is class-based in principle rather than structure-analysis because structure could alter without error during development.
 
 ## Code notes
 
