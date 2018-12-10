@@ -22,9 +22,9 @@ Tests are in runtime and are console.logged, each test is announced, and a messa
 
 ### Test notes
 
-I constructed a small testing object with bespoke functions. The prog is function-based so the functions are tested as units. The API calls have error/failure handling with moderate reporting to console. The tests are mainly on DOM generation and values read from DOM, properties or data read, and also data structures' integrity after processing. Any DOM testing is class-based in principle rather than structure-analysis as structure could alter without error during development.
+I constructed a small testing object with bespoke functions. The prog is function-based so functions are tested as units. The API calls have error/failure handling with moderate reporting to console. The tests are mainly on DOM generation and values read from DOM, properties or data read, and also test data structures' integrity after processing. Any DOM testing is class-based in principle rather than structure-analysis as structure could alter without error during development.
 
-### Code notes
+## Code notes
 
 That was fun yes. A tiny project so I decided not to use a framework (the spec says to do so if I liked) but I thought instead to show understanding of vanilla code (even so, at times I wished I'd frameworked it). I did use jQuery at a low level for the simplicity of its selectors and its ajax as recommended by the TMDB api. I made use of ES6 as requested, and of course ES6 features are very useful. No arrow functions but I couldn't really see a need for that anywhere.
 
