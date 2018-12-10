@@ -11,9 +11,9 @@ Open index.html in a modern browser (Chrome etc)
 
 * Network connection and browser
 * [jQuery 3.3.1](https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js) 
-* [TMDb Movies Now Playing API] (https://developers.themoviedb.org/3/movies/get-now-playing)
-* [TMDb Movie genres API] (https://developers.themoviedb.org/3/genres/get-movie-list)
-* [TMDb Image API] (https://developers.themoviedb.org/3/getting-started/images)
+* [TMDb Movies Now Playing API](https://developers.themoviedb.org/3/movies/get-now-playing)
+* [TMDb Movie genres API](https://developers.themoviedb.org/3/genres/get-movie-list)
+* [TMDb Image API](https://developers.themoviedb.org/3/getting-started/images)
 
 ## Running the tests
 
