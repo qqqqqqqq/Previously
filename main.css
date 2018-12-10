@@ -1,0 +1,154 @@
+/* zoneTest */
+body, head, html, ul, li, h1, h2, input, div, label {
+	margin: 0;
+	padding: 0; 
+	outline: 0;
+	box-sizing: border-box;
+    line-height: 1.2em;
+}
+
+h1, h2 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 32px;
+	padding: 0 0 30px;
+	font-style: italic;
+}
+
+h1  span{
+	font-size: 1.3em;
+	font-style: normal;
+}
+
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.2em;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #333;
+	background-color: #E0F7F7;
+	}
+
+#page {
+	text-align: left;
+	margin: 0 auto;
+	width: 99%; 
+	padding: 20px 0 20px;
+}
+
+ul#genre_list {
+	list-style: none;	
+	padding: 40px 0 0;
+	margin-bottom: 90px;
+	
+}
+
+ul#genre_list > li {
+	float: left;
+	padding: 0 0 15px 19px;
+}
+
+ul#genre_list > li  label {
+	font-style: italic;
+	font-size: 12px;
+}
+
+ul#genre_list > li:first-child  label {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+ul#genre_list > li  input[type='checkbox'] {
+	margin: 3px 3px 0 3px;
+}
+
+ul#genre_list > li:first-child  input[type='checkbox'] {
+	margin: 3px 3px 0 3px;
+	outline: 1px solid #777;
+	outline-offset: 1px;
+}
+
+ul#film_list {
+	list-style: none;
+}
+
+ul#film_list > li {
+	float: left;
+	overflow: hidden;
+	margin-bottom: 50px;
+	margin-left: 1%;
+}
+
+li.film_item div.film_img_contain {
+	float: left;
+	padding: 0;
+	width: 155px;
+}
+
+li.film_item div.film_info {
+	float: left;
+	padding: 20px 17px 5px 12px;
+	width: 155px;
+	overflow: hidden;
+}
+
+ul.film_genres {
+	list-style: none;
+	padding: 30px 0 0 7px;	
+}
+
+ul.film_genres li {
+	float: left;
+	padding-right: 35px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 12px;
+}
+
+#rating_filter > div {
+	float: left;
+}
+
+#rating_filter input {
+	width: 48px;
+    margin-left: 3px;
+    padding: 1px 0px 1px 3px;
+}
+
+.hidden_genre{
+	display: none;
+}
+
+.hidden_rating{
+	display: none;
+}
+
+.clear_both {
+	clear: both;
+}
+
+
+@media screen and (max-width: 656px) {
+      
+	ul#film_list li.film_item {
+		margin-left: 50px;
+	}
+
+	li.film_item div.film_info {
+		padding: 20px 10px 25px;
+	}
+	
+}
+
+
+
+
+
