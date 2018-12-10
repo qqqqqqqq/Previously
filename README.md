@@ -26,7 +26,7 @@ I constructed a small testing object with bespoke functions. The prog is functio
 
 ## Code notes
 
-That was fun yes. A tiny project so I decided not to use a framework (the spec says to do so if I liked) but I thought instead to show understanding of vanilla code (even so, at times I wished I'd frameworked it). I did use jQuery at a low level for the simplicity of its selectors and its ajax as recommended by the TMDB api. I made use of ES6 as requested, and of course ES6 features are very useful. No arrow functions but I couldn't really see a need for that anywhere.
+That was fun yes. A tiny project so I decided not to use a framework (the spec says to do so if I liked) but I thought instead to show understanding of vanilla code and principles (even so, at times I wished I'd frameworked it). Similarly for fun I wrote a small testing object rather than importing. I did use jQuery at a low level for the simplicity of its selectors and its ajax as recommended by the TMDB api. I made use of ES6 as requested, and of course ES6 features are very useful. No arrow functions but I couldn't really see a need for that anywhere.
 
 * The app runs by calling the function to call the NowPlaying api. On done this calls the Genre api. The data input is stored (apis called only once) and on done that calls the routines to render film and genre-filter lists. Actions are bound to DOM objects after render, and only once too as the lists are rendered initially and then displayed using css:
 
