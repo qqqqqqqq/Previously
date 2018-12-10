@@ -31,7 +31,7 @@ That was fun yes. A tiny project so I decided not to use a framework (the spec s
 * The app runs by calling the function to call the NowPlaying api. On done this calls the Genre api. The data input is stored (apis called only once) and on done that calls the routines to render film and genre-filter lists. Actions are bound to DOM objects after render, and only once too as the lists are drawn initially and then displayed using css:
 
 * Hiding/showing items uses css class additions. Each film listing in the DOM is given classes denoting its genres. This works for short/clear code and quick css displays at this simple level. 
-Although I'm aware that holding data in the DOM may not be best practice in general, (and I'd probably rewrite this using data structures in most cases) in theory it's sound here and seemed a neat solution to the logic of displaying something if it has any one of a number of properties. 
+Although I'm aware that holding data in the DOM may not be best practice in general, (and I'd probably rewrite this using data structures in most cases) but in theory it's sound enough here and seemed a neat solution to the logic of displaying something if it has any one of a number of properties. 
 
 * Responsive css - I used a minimum of responsive code, the simple page structure using floating elements resizes well enough and at mobile screen sizes shows a clear list down the page.
 
